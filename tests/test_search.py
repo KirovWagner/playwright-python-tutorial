@@ -39,7 +39,7 @@ def test_basic_duckduckgo_search(
     # And the search result title contains the phrase
     expect(page).to_have_title(f'{phrase} at DuckDuckGo')
 
-# --headed --slowmo 100
+# --headed --slowmo 100: Basic
 # $ python -m pytest tests --browser chromium --browser firefox --browser webkit --verbose (show result separated)
 # --screenshot on: Take a screenshot if tests are failed. --output: allocates screenshot file to exact directory.
 # Each run clean-out folder for screenshots. --screenshot only-on-failure: use screenshot if fail only
